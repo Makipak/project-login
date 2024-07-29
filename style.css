@@ -1,0 +1,76 @@
+body{
+    background-color: #C9DABF;
+}
+
+img{
+    position: relative;
+    left: 104px;
+    width: 50px;
+}
+
+.base{
+    padding: 20px 70px 20px;
+    border-radius: 10%;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    background-color: #9CA986;
+    text-align: center;
+    top: 25%;
+    left: 35%;
+}
+
+
+.username{
+    position: relative;
+    bottom: 20px;
+    right: 70px;
+}
+
+.username-input{
+    position: relative;
+    right: 8px;
+    bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.password{
+    position: relative;
+    right: 70px;
+
+}
+
+.password-input{
+    position: relative;
+    top: 10px;
+    left: 63px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.data{
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+}
+
+h6{
+    position: relative;
+    top: 40px;
+}
+
+button{
+    position: relative;
+    top: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
