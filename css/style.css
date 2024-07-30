@@ -17,8 +17,9 @@ img{
     flex-direction:column;
     background-color: #9CA986;
     text-align: center;
-    top: 25%;
-    left: 39%;
+    margin-left: 76vh;
+    margin-right: auto;
+    margin-top: 20vh;
 }
 
 .username-section{
@@ -30,6 +31,7 @@ img{
     position: relative;
     bottom: 20px;
     right: 70px;
+    font-family: "Hind Siliguri", sans-serif;
 }
 
 .username-input{
@@ -51,13 +53,14 @@ img{
 .password{
     position: relative;
     right: 70px;
+    font-family: "Hind Siliguri", sans-serif;
 
 }
 
 .password-input{
     position: relative;
     top: 10px;
-    right: 5px;
+    right: 6px;
     border: none;
     border-radius: 10px;
     width: 200px;
