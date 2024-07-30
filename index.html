@@ -15,22 +15,14 @@
         <h1>LOGIN</h1>        
         <form action="">
             <div class="data">
-            <table>
-                <tr>
-                    <th>
-                        <label for="username" class="username">Username:</label>
-                        <input type="text" name="username" id="username" class="username-input" placeholder="Masukkan Username">
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <label for="password" class="password">Password : 
-                            <input type="password" name="password" id="password" class="password-input" placeholder="Masukkan Password">
-                        </label>
-                    </th>
-                </tr>
-                
-            </table>
+                <div class="username-section">
+                <label for="username" class="username animate__animated animate__fadeInDown">Username:</label>
+                <input type="text" name="username" id="username" class="username-input animate__bounceIn" placeholder="Masukkan Username">
+                </div>
+                <div class="password-section">
+                <label for="password" class="password">Password :</label>
+                <input type="password" name="password" id="password" class="password-input" placeholder="Masukkan Password">
+                </div>                 
             </div>
             <button type="submit">Masuk</button>
             <h6>Belum <a href="#">registrasi?</a></h6>
