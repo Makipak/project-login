@@ -1,25 +1,25 @@
 body{
     background-color: #C9DABF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 img{
-    position: relative;
-    left: 80px;
     width: 50px;
 }
 
-.base{
+.container{
     padding: 40px 100px;
     border-radius: 10%;
-    color: white;
-    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     flex-direction:column;
     background-color: #9CA986;
     text-align: center;
-    margin-left: 76vh;
-    margin-right: auto;
-    margin-top: 20vh;
 }
 
 .username-section{
